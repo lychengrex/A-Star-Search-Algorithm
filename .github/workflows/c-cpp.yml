@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: configure
-      run: ./configure
     - name: run testing examples
       run: make test && ./a.out
     - name: clean object files
