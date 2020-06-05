@@ -23,7 +23,7 @@ The A* search algorithm is to find a path to the given goal node with the smalle
 > Note: the starting point can be empty `0` or obstacle `1`.  
 
 ```shell
-$ g++ -std=c++11 main.cpp
+$ g++ -std=c++11 main.cpp AStarSearchAlgorithm.cpp
 $ ./a.out
 ```
 
