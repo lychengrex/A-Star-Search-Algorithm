@@ -1,4 +1,7 @@
+#include <iostream>
+
 #include "AStarSearchAlgorithm.hpp"
+using std::cout;
 using namespace AStarSearchAlgorithm;
 
 void PrintVector(vector<int> v) {

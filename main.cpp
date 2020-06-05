@@ -1,5 +1,7 @@
 #include <iostream>
 using std::cin;
+using std::cout;
+using std::endl;
 #include "AStarSearchAlgorithm.hpp"
 using namespace AStarSearchAlgorithm;
 
@@ -17,7 +19,7 @@ int main() {
         else
             emptyFile = false;
     } while (emptyFile);
-    
+
     int xInit, yInit, xGoal, yGoal;
     do {
         cout << "Enter the x-coord (row) of starting point: ";
