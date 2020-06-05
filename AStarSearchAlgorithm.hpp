@@ -1,3 +1,5 @@
+#ifndef AStarSearchAlgorithm_hpp
+#define AStarSearchAlgorithm_hpp
 #include <algorithm>
 #include <fstream>
 #include <iostream>
@@ -242,3 +244,4 @@ void PrintBoard(const vector<vector<State>> board) {
 }
 
 }  // namespace AStarSearchAlgorithm
+#endif  // AStarSearchAlgorithm_hpp
