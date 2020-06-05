@@ -31,3 +31,14 @@ $ ./a.out
 ![](main.png)
 
 > Note: `i` is the initial point, `0` is empty, `x` is obstacle, `*` is path, and `G` is goal.  
+
+## Testing
+
+I set up auto-testing for the algorithm itself which will run every time when pushing to the repo (see `Action` tab for more details). You can also test the algorithm locally with the following scripts:
+
+```shell
+$ make test
+$ ./a.out
+```
+
+To delete the object file, run `make clean`.
