@@ -8,7 +8,7 @@ The A* search algorithm is to find a path to the given goal node with the smalle
 
 ```
 .
-|--- AStarSearchAlgorithm: the A* search algorithm
+|--- AStarSearchAlgorithm.hpp: the A* search algorithm
 |--- test.cpp: algorithm testing examples
 |--- main.cpp: main function to run the algorithm
 |--- 1.board: text file of a rectangle grid
@@ -16,7 +16,7 @@ The A* search algorithm is to find a path to the given goal node with the smalle
 
 ## Usage  
 
-1. One should provide a text file with a fixed format for each line, which is *a number followed by a comma* where the number are `0` or `1`. For example, `1,0,0,0,0,`.
+1. One should provide a text file with a fixed format for each line, which is *a number followed by a comma* where the number are `0` or `1`. For example, `1,0,0,0,0,`. See [`1.board`](1.board) for more details.
 
 2. Enter the starting and goal point: row and column (index starts from 0)
 
