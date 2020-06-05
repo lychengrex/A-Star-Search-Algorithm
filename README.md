@@ -12,6 +12,7 @@ The A* search algorithm is to find a path to the given goal node with the smalle
 |--- test.cpp: algorithm testing examples
 |--- main.cpp: main function to run the algorithm
 |--- 1.board: text file of a rectangle grid
+|--- makefile: compile scripts
 ```
 
 ## Usage  
