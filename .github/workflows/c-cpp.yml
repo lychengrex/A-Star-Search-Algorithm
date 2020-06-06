@@ -12,6 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: go to src folder
+        run: cd src
       - name: run testing examples
         run: make test && ./a.out
       - name: clean object files
