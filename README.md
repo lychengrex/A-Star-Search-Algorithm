@@ -8,11 +8,12 @@ The A* search algorithm is to find a path to the given goal node with the smalle
 
 ```
 .
-|--- AStarSearchAlgorithm.hpp: the A* search algorithm
-|--- test.cpp: algorithm testing examples
-|--- main.cpp: main function to run the algorithm
-|--- 1.board: text file of a rectangle grid
-|--- makefile: compile scripts
+|--- src/AStarSearchAlgorithm.hpp: the A* search header file
+|--- src/AStarSearchAlgorithm.cpp: the A* search algorithm
+|--- src/test.cpp: algorithm testing examples
+|--- src/main.cpp: main function to run the algorithm
+|--- src/makefile: compile scripts
+|--- data/1.board: text file of a rectangle grid
 ```
 
 ## Usage  
@@ -24,11 +25,10 @@ The A* search algorithm is to find a path to the given goal node with the smalle
 > Note: the starting point can be empty `0` or obstacle `1`.  
 
 ```shell
-$ make build
-$ ./a.out
+$ make build && ./a.out
 ```
 
-![](main.png)
+![](img/main.png)
 
 > Note: `i` is the initial point, `0` is empty, `x` is obstacle, `*` is path, and `G` is goal.  
 
@@ -37,8 +37,7 @@ $ ./a.out
 I set up auto-testing for the algorithm itself which will run every time when pushing to the repo (see `Action` tab for more details). You can also test the algorithm locally with the following scripts:
 
 ```shell
-$ make test
-$ ./a.out
+$ make test && ./a.out
 ```
 
 To delete the object file, run `make clean`.
