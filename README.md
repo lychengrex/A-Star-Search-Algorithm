@@ -1,4 +1,6 @@
-# A* Search Algorithm
+# A* Search Algorithm 
+
+![C/C++ CI](https://github.com/lychengr3x/A-Star-Search-Algorithm/workflows/C/C++%20CI/badge.svg?branch=master)
 
 The A* search algorithm is to find a path to the given goal node with the smallest cost.
 
